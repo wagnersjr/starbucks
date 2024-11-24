@@ -1,10 +1,10 @@
-import { MainStyle, Copo, Section } from "./style";
+import { MainStyle, Copo, Section, Info } from "./style";
 import Copos from "../Copos/Copos";
 
 export default function Home3() {
     return (
       <MainStyle>
-        <section>
+        <Info>
           <h2>Mais que Café</h2>
           <h1>
             Isso é <span>Starbucks</span>
@@ -17,18 +17,16 @@ export default function Home3() {
           </p>
           <button>SAIBA MAIS</button>
           
-
           <Copos/>
 
-
-        </section>
+        </Info>
         <Section>
           <Copo
             src="https://github.com/mariaccarolina/starbugsNoite/blob/main/src/assets/images/amarelo2x%201.png?raw=true"
             alt=""
           />
           <img
-            src="https://github.com/mariaccarolina/starbugsNoite/blob/main/src/assets/images/Ellipse%202.png?raw=true"
+            src="https://github.com/wagnersjr/starbucks/blob/main/src/assets/images/Ellipse%202.png?raw=true"
             alt=""
           />
         </Section>

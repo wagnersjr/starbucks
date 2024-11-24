@@ -6,13 +6,14 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 20vh;
+padding: 52px 116px;
 `
 export const StyleLink = styled(Link)`
   text-decoration: none;
   color: #1e3932;
   
    &:hover{
-       color: palevioletred;
+       color: #2b8600;
    }
 `;
 
@@ -21,10 +22,7 @@ display: flex;
 width: 40vw;
 justify-content: space-around;
 list-style: none;
+font-family: "Poppins", serif;
+font-weight: 400;
 `
 
-// export const Li = styled.li`
-// &:hover{
-//     color: palevioletred;
-// }
-// `

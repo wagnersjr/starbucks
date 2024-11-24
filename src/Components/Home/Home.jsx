@@ -18,7 +18,7 @@ export default function Home() {
           <button>SAIBA MAIS</button>
           
           <Copos/>
-          
+
         </Info>
 
         <Section>

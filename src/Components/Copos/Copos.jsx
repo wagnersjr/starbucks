@@ -6,14 +6,14 @@ import copinhoAmarelo from "../../assets/images/amarelo 1.png"
 
 export default function Copos(){
     return(
-        <section>
+        <CopoEstilo>
 
-          <Link to = "/" >  <CopoEstilo src= {copinhoLaranja} alt="" /> </Link>
+          <Link to = "/" >  <img src= {copinhoLaranja} alt="" /> </Link>
 
-          <Link to = "/home2" >  <CopoEstilo src= {copinhoVermelho} alt="" /> </Link>
+          <Link to = "/home2" >  <img src= {copinhoVermelho} alt="" /> </Link>
 
-          <Link to = "/home3" >  <CopoEstilo src= {copinhoAmarelo} alt="" /> </Link>
+          <Link to = "/home3" >  <img src= {copinhoAmarelo} alt="" /> </Link>
 
-        </section>
+        </CopoEstilo>
     )
 }
