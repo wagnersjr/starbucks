@@ -23,10 +23,10 @@ export default function Home2() {
 
         <Section>
           <Copo
-            src="https://github.com/mariaccarolina/starbugsNoite/blob/main/src/assets/images/vermelho2x%201.png?raw=true"
+            src="https://github.com/wagnersjr/starbucks/blob/main/src/assets/images/vermelho2x%201.png?raw=true"
             alt=""
           />
-          <img
+          <img className="elipse"
             src="https://github.com/mariaccarolina/starbugsNoite/blob/main/src/assets/images/Ellipse%201.png?raw=true"
             alt=""
           />

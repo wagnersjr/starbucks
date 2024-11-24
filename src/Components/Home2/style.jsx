@@ -3,12 +3,23 @@ import styled from "styled-components";
 export const MainStyle = styled.main`
 display: flex;
 height: 80vh;
+position: relative;
+
+@media (min-width: 320px) and (max-width: 500px){
+    flex-direction: column;
+}
+
+
 
 
 h2{
     font-weight: 400;
     font-size: 64px;
     font-family: "Inter", sans-serif;
+
+    @media (min-width: 320px) and (max-width: 500px){
+    font-size: 32px;
+}
     
 }
 
@@ -16,12 +27,20 @@ h1{
     font-weight: 400;
     font-size: 64px;
     font-family: "Poppins", serif;
+
+    @media (min-width: 320px) and (max-width: 500px){
+    font-size: 32px;
+}
     
 
     span{
         font-weight: 700;
         color:#037143;
         font-family: "Poppins", serif;
+        
+        @media (min-width: 320px) and (max-width: 500px){
+        font-size: 32px;
+}
     }
 }
 
@@ -30,6 +49,10 @@ p{
     font-weight: 400;
     width:60%;
     font-family: "Poppins", serif;
+
+    @media (min-width: 320px) and (max-width: 500px){
+    font-size: 16px;
+}
     
     
 }
@@ -43,6 +66,12 @@ button{
     border-radius: 30px;
     font-weight: 700;
     margin-top: 20px;
+
+    @media (min-width: 320px) and (max-width: 500px){
+        padding:10px 20px;
+        
+}
+
 }
 
 `
@@ -55,6 +84,21 @@ display: flex;
 flex-direction: column;
 justify-content: end;
 
+@media (min-width: 320px) and (max-width: 500px){
+    align-items: end;
+}
+
+    
+
+.elipse{
+    @media (min-width: 320px) and (max-width: 500px){
+        width: 234px; 
+        height: 200px;
+    }
+}
+    
+
+
 
 
 `
@@ -62,6 +106,13 @@ export const Copo = styled.img`
 position: absolute;
 left: 100px;
 bottom: 70px;
+
+@media (min-width: 320px) and (max-width: 500px){
+    width: 220px;
+    height: 228px;
+    bottom: 15px;
+   left: 17rem;
+}
 
 `
 

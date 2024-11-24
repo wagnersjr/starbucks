@@ -7,6 +7,11 @@ justify-content: space-between;
 align-items: center;
 height: 20vh;
 padding: 52px 116px;
+
+@media (min-width: 320px) and (max-width: 500px){
+  flex-direction: column;
+  gap: 15px;
+}
 `
 export const StyleLink = styled(Link)`
   text-decoration: none;

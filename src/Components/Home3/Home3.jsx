@@ -20,16 +20,20 @@ export default function Home3() {
           <Copos/>
 
         </Info>
+
         <Section>
           <Copo
-            src="https://github.com/mariaccarolina/starbugsNoite/blob/main/src/assets/images/amarelo2x%201.png?raw=true"
+            src="https://github.com/wagnersjr/starbucks/blob/main/src/assets/images/amarelo2x%201.png?raw=true"
             alt=""
           />
-          <img
+          <img className="elipse"
             src="https://github.com/wagnersjr/starbucks/blob/main/src/assets/images/Ellipse%202.png?raw=true"
             alt=""
           />
         </Section>
+        
       </MainStyle>
     );
+
+    
 }
