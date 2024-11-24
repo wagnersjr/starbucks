@@ -1,32 +1,31 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
- 
+  
 
   h3 {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: white;
+    
   }
 
   h2 {
     font-family: "Poppins", serif;
     font-size: 64px;
     font-weight: 400;
-    color: white;
+    
   }
 
   p {
     font-family: "Poppins", serif;
     font-size: 24px;
     font-weight: 400;
-    color: white;
     width: 40vw;
   }
 
   button {
-    color: white;
+   color: white;
     background-color: #037143;
     font-family: "Inter", sans-serif;
     border: none;
@@ -40,7 +39,7 @@ export const Section = styled.section`
 export const Container = styled.section`
 height: 80vh;
 padding: 0 116px;
-  background-color: #1e3932;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
