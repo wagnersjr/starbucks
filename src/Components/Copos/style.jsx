@@ -5,6 +5,7 @@ position: absolute;
 bottom: 1px;
 right: 10rem;
 
+
 a{
     text-decoration: none;
 }
@@ -16,12 +17,16 @@ a{
     position: absolute;
     top: 35rem;
     right: 12rem;
+   flex-direction: column;
 }
 
 img{
     @media (min-width: 320px) and (max-width: 500px) {
-        width: 97px;
-        height: 100px;
+        width: 56px;
+        height: 58px;
+        
+       
+      
     }  
 }
 `

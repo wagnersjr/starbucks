@@ -29,5 +29,10 @@ justify-content: space-around;
 list-style: none;
 font-family: "Poppins", serif;
 font-weight: 400;
+
+@media (min-width: 320px) and (max-width: 500px){
+  gap: 15px;
+  width: 100%;
+}
 `
 
